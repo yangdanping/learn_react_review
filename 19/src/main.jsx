@@ -1,0 +1,13 @@
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import './index.css';
+// import App from './1_App(actions).jsx';
+// import App from './2_App(useActionState).jsx';
+// import App from './3_App(formAction).jsx';
+// import App from './4_App(useOptimistic).jsx';
+import App from './5_App(useFormStatus).jsx';
+// import App from './6_App(use).jsx';
+// import App from './7_App(react19传入ref的方法).jsx';
+// import App from './8_App(Context回顾).jsx';
+// import App from './9_App(react19版本ref支持清理函数).jsx';
+createRoot(document.getElementById('root')).render(<App />);
